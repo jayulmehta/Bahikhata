@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+            <android.support.v4.view.ViewPager
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <android.support.v4.view.PagerTitleStrip
+                    android:id="@+id/pager_title_strip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:background="#ffd3d3d3"
+                    android:textColor="#000"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp" />
+
+            </android.support.v4.view.ViewPager>
+            <view
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                class="com.shamanland.fonticon.FontIconView"
+                android:id="@+id/addTx"
+                android:layout_marginRight="10dp"
+                android:editable="true"
+                android:enabled="true"
+                android:text="@string/icon_plus_circled"
+                android:textIsSelectable="false"
+                android:textSize="100dp"
+                android:textColor="@color/menu"
+                android:onClick="AddTxClick"
+                android:showDividers="end"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="right|bottom"/>
+
+</RelativeLayout>

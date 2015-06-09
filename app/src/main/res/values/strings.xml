@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bahi Khata</string>
+    <string name="add_tx_title">New</string>
+    <string name="title_activity_main">Main</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="name">Name</string>
+    <string name="contact">Contact</string>
+    <string name="address">Address</string>
+
+    <string name="startBtn">Start</string>
+
+    <string name="add">Add</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="total">Total : </string>
+
+    <string name="credit">Credit</string>
+    <string name="debit">Debit</string>
+    <string name="partyname">Name</string>
+    <string name="partybalance">Balance</string>
+    <string name="detail">Detail</string>
+    <string name="amount">Amount</string>
+    <string name="purpose">Purpose</string>
+
+    <string name="e_msg">Enter smaller amount</string>
+    <string name="r_msg">Required</string>
+    <string name="A_msg">Delete ?</string>
+    <string name="addtxn_msg">New Transaction</string>
+    <string name="addacc_msg">New Account</string>
+    <string name="duplicateacc_msg">Account exists</string>
+
+    <string name="drawer_close">Close</string>
+    <string name="drawer_open">Open</string>
+
+    <string name="countrycode">IN</string>
+    <string name="language">en</string>
+
+    <string name="base64EncodedPublicKey">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhJmZhtJHZ+euaynag//oBd94E5e6PfoDpnyDgMti4Xtg3RwZMjBp1dKRfEMdxlNmn2caXs7D4ZyaxTUUSRUJZAwgqvfOfX2xlEkeCNqgmlQrkScpUy/74e/VkPXYJWTHasJAc3VattKpN4dhAMdfZiVK6onkX4GN9MXhGcX1tHzgs1FmV1QvALmcB6dR23bL40a862rV2EhH5ju9h+WM9JtLl80S1ds8RKbKJZxE7VBPe9vxP+e1+S9h/WzVIZAQpZ7taBVwaHAbkcrCpeM9IRAMJe6oPTYLu3jN7BdQCRsAVg5S6STQSLVDxwYH5NcbG23Yz9gFqRceWZXI1prRnQIDAQAB</string>
+    <string name="ParseAppId">7jvGqmAF85p0EnxSkYI8lecW8evmvb8wnUNaRqvX</string>
+    <string name="ParseClientKey">BhIoNiXvBSn6iEbmZR0rekKfWtrXaEnoFMHQHbUu</string>
+    <string name="TWITTER_KEY">cLlpZPc7qsJJzX5qmWHP9Ks7M</string>
+    <string name="TWITTER_SECRET">ADMIXpZ6R81HnXn8meCYgOgpXnwitYGGYcHIkbshmB60SoA2Oy</string>
+
+    <string name="iPayyMerchant">FLBWefU4eNrp6o7Vn7gMbg</string>
+    <string name="iPayyApplication">5K7WOJ3wLjdW2Ty1EGyqsA</string>
+
+    <string name="helpshiftApiKey">5fe7b75cbd09f1353fcb5a89821e12a4</string>
+    <string name="helpshiftDomain">bahikhata.helpshift.com</string>
+    <string name="helpshiftAppId">bahikhata_platform_20150527081846916-a2683260529c87a</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_account">New Account</string>
+    <string name="title_activity_grid">GridActivity</string>
+
+    <string name="detail_header">Your Details</string>
+    <string name="detail_name">Name</string>
+    <string name="detail_address">Address</string>
+    <string name="Contact">Contact</string>
+    <string name="language_header">Language and Currency</string>
+    <string name="Language">Language</string>
+    <string name="Currency">Currency</string>
+    <string name="license_header">License</string>
+    <string name="key">Key</string>
+    <string name="expiry">Expires on</string>
+
+    <string-array name="menuItems">
+        <item>Roj mel</item>
+        <item>Khata vahi</item>
+        <item>Help</item>
+        <item>Settings</item>
+        <item>Logout</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+</resources>

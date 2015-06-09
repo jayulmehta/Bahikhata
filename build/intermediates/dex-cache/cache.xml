@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/MSnInfotech/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/MSnInfotech/Desktop/Bahi khata/code/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-3747206647555aa01c655ddc7074ba2cef4b9fbf.jar" />
+    </item>
+    <item
+        jar="/Users/MSnInfotech/Desktop/Bahi khata/code/app/libs/Parse-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5811138d4e6cb9d45030e133ef1a61b935154c3a">
+        <dex dex="/Users/MSnInfotech/Desktop/Bahi khata/code/app/build/intermediates/pre-dexed/debug/Parse-1.9.0-b1a5d1e2eb32041b5fb330892681dd3181b487a7.jar" />
+    </item>
+    <item
+        jar="/Users/MSnInfotech/Desktop/Bahi khata/code/app/build/intermediates/exploded-aar/com.helpshift/android-en-aar/3.9.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4f7816d963ccd0f8de97079bfdb4aae23bc44437">
+        <dex dex="/Users/MSnInfotech/Desktop/Bahi khata/code/app/build/intermediates/pre-dexed/debug/classes-e136101f0e301241c2ba19ccd0cc3ede5a3c9fa0.jar" />
+    </item>
+    <item
+        jar="/Users/MSnInfotech/Desktop/Bahi khata/code/app/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="af64527b748983a75de9c0756e9768b56b240a49">
+        <dex dex="/Users/MSnInfotech/Desktop/Bahi khata/code/app/build/intermediates/pre-dexed/debug/classes-bb87bb2247b5d751c837a6929f9bde210eb340bb.jar" />
+    </item>
+    <item
+        jar="/Users/MSnInfotech/Desktop/Bahi khata/code/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/MSnInfotech/Desktop/Bahi khata/code/app/build/intermediates/pre-dexed/debug/classes-684687401c79609a722fa9ba647623f8ba639470.jar" />
+    </item>
+    <item
+        jar="/Users/MSnInfotech/Desktop/Bahi khata/code/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/MSnInfotech/Desktop/Bahi khata/code/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-0621adfdda68f55c40d9170b78cb8814a17b9b73.jar" />
+    </item>
+    <item
+        jar="/Users/MSnInfotech/Desktop/Bahi khata/code/app/build/intermediates/exploded-aar/com.shamanland/fonticon/0.1.6/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="61b4dd29f1b263a738656a9cfb6b40ece000921a">
+        <dex dex="/Users/MSnInfotech/Desktop/Bahi khata/code/app/build/intermediates/pre-dexed/debug/classes-dd7122c57311a4eff4e24eeec8d0a5f80eaf5434.jar" />
+    </item>
+    <item
+        jar="/Users/MSnInfotech/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.7/5599707a3eaad13e889f691b3af78c8c03842195/joda-time-2.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5599707a3eaad13e889f691b3af78c8c03842195">
+        <dex dex="/Users/MSnInfotech/Desktop/Bahi khata/code/app/build/intermediates/pre-dexed/debug/joda-time-2.7-2e01982bd718a526df46078c54ed7c0e0115ba76.jar" />
+    </item>
+    <item
+        jar="/Users/MSnInfotech/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/MSnInfotech/Desktop/Bahi khata/code/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-94761bf5173c961a9692a80a08d286fed139c246.jar" />
+    </item>
+    <item
+        jar="/Users/MSnInfotech/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/MSnInfotech/Desktop/Bahi khata/code/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0-c28d0a17781c564ce2b01affd8ab9139b29e4ed4.jar" />
+    </item>
+
+</items>

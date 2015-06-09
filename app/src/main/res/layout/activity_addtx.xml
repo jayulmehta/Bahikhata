@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollview"
+        android:scrollbars="vertical"
+        android:layout_weight="0"
+        android:fillViewport="false">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/party"
+                android:weightSum="1">
+
+                <AutoCompleteTextView
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/username"
+                    android:inputType="textPersonName"
+                    android:hint="@string/partyname"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:digits="abcdefghijklmnopqrstuvwxyz
+                                    ABCDEFGHIJKLMNOPQRSTQVWXYZ"
+                    android:maxLength="25"
+                    android:layout_weight="0.75" />
+
+                <view
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    class="com.shamanland.fonticon.FontIconView"
+                    android:id="@+id/addTx"
+                    android:editable="true"
+                    android:enabled="true"
+                    android:text="@string/icon_plus_circled"
+                    android:textIsSelectable="false"
+                    android:textSize="30dp"
+                    android:textColor="@color/menu"
+                    android:onClick="AddAccount"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.05"/>
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/balanceView"
+                    android:layout_weight="0.20"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/partybalance"
+                    android:textSize="18dp"
+                    android:gravity="right" />
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number|phone"
+                android:ems="10"
+                android:id="@+id/amount"
+                android:hint="@string/amount"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:enabled="true"
+                android:digits="0123456789"
+                android:maxLength="16"
+                android:layout_below="@+id/party"/>
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/type"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:weightSum="1"
+                android:layout_below="@+id/amount">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/debit"
+                    android:id="@+id/debit"
+                    android:layout_weight="0.5" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/credit"
+                    android:id="@+id/credit"
+                    android:checked="true"
+                    android:layout_weight="0.5" />
+
+            </RadioGroup>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/license"
+                android:hint="@string/detail"
+                android:layout_below="@+id/type"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:maxLength="50"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:text="@string/ok"
+                android:id="@+id/button"
+                android:background="@color/menu"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/menu_text"
+                android:textStyle="bold"
+                android:onClick="AddTx"
+                android:layout_below="@+id/license"
+                android:layout_marginTop="30dp"
+                android:enabled="true" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

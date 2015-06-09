@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <EditText
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/name"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="@string/name"
+                    android:layout_weight="0.9" />
+
+                <view
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    class="com.shamanland.fonticon.FontIconView"
+                    android:id="@+id/addContact"
+                    android:layout_marginRight="15dp"
+                    android:editable="true"
+                    android:enabled="true"
+                    android:text="@string/icon_users"
+                    android:textIsSelectable="false"
+                    android:textSize="30dp"
+                    android:textColor="@color/menu"
+                    android:onClick="PickContactClick"
+                    android:layout_weight="0.1"
+                    android:gravity="right" />
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/contact"
+                android:clickable="true"
+                android:editable="true"
+                android:enabled="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/contact" />
+
+            <EditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPostalAddress"
+                        android:ems="10"
+                        android:id="@+id/address"
+                android:clickable="true"
+                android:editable="true"
+                android:enabled="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/address" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

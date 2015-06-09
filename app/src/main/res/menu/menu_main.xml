@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.aspiration.bahikhata.MainActivity">
+
+    <group android:id="@+id/rojmelmenu">
+        <item android:id="@+id/pickDate"
+            android:title="Pick Date"
+            android:showAsAction="ifRoom"/>
+    </group>
+    <group android:id="@+id/khatamenu">
+        <item android:id="@+id/addAccount"
+            android:title="New Account"
+            android:showAsAction="ifRoom"/>
+    </group>
+
+</menu>

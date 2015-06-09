@@ -1,0 +1,50 @@
+buildscript {
+    repositories {
+
+    }
+
+    dependencies {
+
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'org.robolectric'
+
+repositories {
+
+}
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.aspiration.bahikhata"
+        minSdkVersion 11
+        targetSdkVersion 22
+        versionCode 3
+        versionName "Beta"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: 'Parse-*.jar')
+    compile 'com.parse.bolts:bolts-android:1.+'
+    compile 'com.shamanland:fonticon:0.1.6'
+    compile 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar'
+    compile 'com.android.support:support-v4:22.1.1'
+    compile 'de.greenrobot:eventbus:2.4.0'
+    compile 'joda-time:joda-time:2.7'
+    compile 'com.helpshift:android-en-aar:3.9.0'
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.robolectric:robolectric:2.4'
+
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="icon_users">a</string>
+    <string name="icon_plus_circled">c</string>
+    <string name="icon_calendar">b</string>
+    <string name="icon_check">d</string>
+    <string name="icon_clock">e</string>
+    <string name="icon_browser">f</string>
+    <string name="icon_cloud_upload">g</string>
+    <string name="icon_logout">h</string>
+</resources>

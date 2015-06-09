@@ -1,0 +1,321 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.aspiration.bahikhata.SettingActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/language_section"
+        android:layout_below="@+id/detail_section"
+        android:layout_marginTop="30dp">
+
+        <TextView android:text="@string/language_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/language_header"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/detail_divider1"
+            android:layout_below="@+id/language_header"
+            android:layout_marginTop="10dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:measureWithLargestChild="false"
+            android:layout_below="@+id/language_header"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Language"
+                    android:id="@+id/language"
+                    android:layout_weight="0.3"
+                    android:textSize="16sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Currency"
+                    android:id="@+id/textView21"
+                    android:layout_weight="0.3"
+                    android:textSize="16sp" />
+
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/license_section"
+        android:layout_below="@+id/language_section"
+        android:layout_marginTop="30dp">
+
+        <TextView android:text="@string/license_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/license_header"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/license_divider"
+            android:layout_below="@+id/license_header"
+            android:layout_marginTop="10dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:measureWithLargestChild="false"
+            android:layout_below="@+id/license_header"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:text="@string/key"
+                    android:id="@+id/key"
+                    android:layout_weight="0.3"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/key_value"
+                    android:layout_weight="0.3"
+                    android:textSize="16sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:text="@string/expiry"
+                    android:id="@+id/expiry"
+                    android:layout_weight="0.3"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/expiry_value"
+                    android:layout_weight="0.3"
+                    android:textSize="16sp" />
+
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail_section"
+        android:layout_marginTop="20dp">
+
+        <TextView android:text="@string/detail_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_header"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/detail_divider"
+            android:layout_below="@+id/detail_header"
+            android:layout_marginTop="10dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:measureWithLargestChild="false"
+            android:layout_below="@+id/detail_header"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail_name"
+                    android:id="@+id/textView4"
+                    android:layout_weight="0.3"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/name"
+                    android:layout_weight="0.5"
+                    android:enabled="false"
+                    android:textSize="16sp" />
+                <view
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    class="com.shamanland.fonticon.FontIconView"
+                    android:id="@+id/nameEdit"
+                    android:editable="true"
+                    android:enabled="true"
+                    android:text="@string/icon_plus_circled"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textColor="@color/menu"
+                    android:showDividers="end"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="right|bottom"
+                    android:layout_weight="0.1"
+                    android:onClick="OnEditClick" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail_address"
+                    android:id="@+id/textView2"
+                    android:layout_weight="0.3"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPostalAddress"
+                    android:ems="10"
+                    android:id="@+id/address"
+                    android:layout_weight="0.5"
+                    android:enabled="false"
+                    android:textSize="16sp" />
+
+                <view
+                    class="com.shamanland.fonticon.FontIconView"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/addressEdit"
+                    android:editable="true"
+                    android:enabled="true"
+                    android:text="@string/icon_plus_circled"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textColor="@color/menu"
+                    android:showDividers="end"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="right|bottom"
+                    android:layout_weight="0.1"
+                    android:onClick="OnEditClick" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contact"
+                    android:id="@+id/textView3"
+                    android:layout_weight="0.3"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:ems="10"
+                    android:id="@+id/contact"
+                    android:layout_weight="0.5"
+                    android:enabled="false"
+                    android:textSize="16sp" />
+
+                <view
+                    class="com.shamanland.fonticon.FontIconView"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/contactEdit"
+                    android:editable="true"
+                    android:enabled="true"
+                    android:text="@string/icon_plus_circled"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textColor="@color/menu"
+                    android:showDividers="end"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="right|bottom"
+                    android:layout_weight="0.1"
+                    android:onClick="OnEditClick" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</RelativeLayout>
